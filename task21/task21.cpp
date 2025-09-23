@@ -3,8 +3,9 @@
 
 int main()
 {
-	std::string str = "2.147.483.647";
+	std::string str = "21474836471121";
 	int number{};
+
 	int count{};
 	for (int i{}; i < str.size(); ++i)
 	{
@@ -30,13 +31,23 @@ int main()
 			++count;
 		}
 	}
-	if (count > 10)
+
+	unsigned long long numberLong{};
+	try
 	{
-		throw "Error! Number is too big";
+		numberLong = stoll(str);
+	}
+	catch (std::out_of_range& ex)
+	{
+		std::cout << "Error! Number is too big: " << ex.what() << std::endl;
+	}
+	if (numberLong <= 2147483647)
+	{
+		number = stoi(str);
+		std::cout << "string: " << str << "\n";
+		std::cout << "numbeer: " << number << "\n";
+
 	}
 
-	number = stoi(str);
-	std::cout << "string: " << str << "\n";
-	std::cout << "numbeer: " << number << "\n";
 
 }

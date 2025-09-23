@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{BEC64088-8EEB-460D-86D1-95986A3AEFB3}|task21\\task21.vcxproj|D:\\Programming\\C\u002B\u002B Itstep\\VS\\task21\\task21\\task21.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BEC64088-8EEB-460D-86D1-95986A3AEFB3}|task21\\task21.vcxproj|solutionrelative:task21\\task21.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\VS IDE\\VC\\Tools\\MSVC\\14.44.35207\\include\\string||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "string",
+              "DocumentMoniker": "D:\\Visual Studio\\VS IDE\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Visual Studio\\VS IDE\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "ToolTip": "D:\\Visual Studio\\VS IDE\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "RelativeToolTip": "..\\..\\..\\..\\Visual Studio\\VS IDE\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-23T03:14:56.207Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "task21\\task21.cpp",
               "ToolTip": "D:\\Programming\\C\u002B\u002B Itstep\\VS\\task21\\task21\\task21.cpp",
               "RelativeToolTip": "task21\\task21.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-20T15:28:45.16Z",
               "EditorCaption": ""
